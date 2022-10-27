@@ -92,7 +92,7 @@ case $NUM in
 	       echo "Namorar, nem sei o que é isso!"
 	  ;;
  	*3*) 
-	       echo"Isso é um segredo"
+	       echo "Isso é um segredo"
 	  ;;
 esac
 
