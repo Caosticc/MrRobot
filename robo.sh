@@ -25,9 +25,13 @@ function inicio(){
         	sleep 1
         	echo "Mas sou conhecido por Mr.Zueirinha"
                 echo
+		echo "Se necessitas de alguma ajuda digite help"
+		echo
         	read -p "Pergunte algo ou seja meu alvo da zoeira: " PERGUNTA
         ;;
         *'2'*)
+		echo "Se necessitas de alguma ajuda digite help"
+		sleep 1
 		echo "Qual é a resposta da pergunta What is the answere?"
 		sleep 1
 		echo "Resposta: what. Entenderam?"
@@ -37,7 +41,9 @@ function inicio(){
         *'3'*)
                 echo "Prazer! sou o mestre da zueira"
                 sleep 1
+		echo "Se necessitas de alguma ajuda digite help"
                 echo
+		sleep 1
                 read -p "Não quer me fazer alguma pergunta para eu não te zuar?: " PERGUNTA
         ;;
         esac
@@ -48,7 +54,7 @@ function ajuda(){
 	echo 
 	echo "O objetivo dele é ser um robo da zueira"
 	echo 
-	echo "Para usa-lo, digite ./once e quando aparecer a mensagem de pergunta, responda com palavras minusculas"
+	echo "Para usa-lo, digite ./robo e quando aparecer a mensagem de pergunta, responda com palavras minusculas"
 	echo   
 	echo "Para essa mensagem, digite help"
 	echo
