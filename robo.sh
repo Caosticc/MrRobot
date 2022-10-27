@@ -196,7 +196,7 @@ case $PERGUNTA in
         "cria"*)
 	        criador 
       	  ;;
-	"manha")
+	"manha"|"manhã")
 		tempo
           ;;
 	"versão"|"versao")
