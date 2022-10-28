@@ -183,33 +183,33 @@ inicio
 #---------------Case-----------------#
 
 case $PERGUNTA in
-	"cone"*)
+	*"cone"*)
 		conectividade
           ;;
-	"namor"*)
+	*"namor"*)
 		namorar
 	  ;;
-        "vulnera"*)
+        *"vulnera"*)
 	      	vulnerabilidade
 	  ;;
-        "servi"*)      
+        *"servi"*)      
 		servicos
 	  ;;
-        "atualiz"*)
+        *"atualiz"*)
 	        atualize
 	  ;;    
-        "cria"*)
+        *"cria"*)
 	        criador 
       	  ;;
-	"manha"|"manhã")
+	*"manha"|"manhã")
 		tempo
           ;;
-	"versão"|"versao")
+	*"versão"|"versao")
 		versao
           ;;
-	"diver"*)
+	*"diver"*)
 		diversao
 	  ;;
-  	"ajuda"|"help")
+  	*"ajuda"|"help")
 		ajuda
 esac
