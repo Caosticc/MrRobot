@@ -44,6 +44,6 @@ versao
 namoro
 criador
 manha
-degredo
+segredo
 
 ```
