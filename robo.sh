@@ -201,10 +201,10 @@ case $PERGUNTA in
         *"cria"*)
 	        criador 
       	  ;;
-	*"manha"|"manhã")
+	*"manha"|"manhã"*)
 		tempo
           ;;
-	*"versão"|"versao")
+	*"versão"|"versao"*)
 		versao
           ;;
 	*"diver"*)
