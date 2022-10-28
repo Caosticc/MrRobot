@@ -45,6 +45,7 @@ function inicio(){
         ;;
         *'3'*)
                 echo "Prazer! sou o mestre da zueira"
+		echo
                 sleep 1
 		echo "Se necessitas de alguma ajuda digite help"
                 echo
@@ -201,10 +202,10 @@ case $PERGUNTA in
         *"cria"*)
 	        criador 
       	  ;;
-	*"manha"|"manhã"*)
+	*"manha"*|*"manhã"*)
 		tempo
           ;;
-	*"versão"|"versao"*)
+	*"versão"*|*"versao"*)
 		versao
           ;;
 	*"diver"*)
