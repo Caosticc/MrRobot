@@ -99,7 +99,7 @@ esac
 }
 function atualize(){
 	echo "me atualizando"
-	sudo apt upgrade
+	sudo apt update
 }
 function versao ()
 {
