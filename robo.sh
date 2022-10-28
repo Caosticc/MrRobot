@@ -1,5 +1,7 @@
 #!/bin/bash
-#robo
+#MrRobot
+#Autor: Gabriel
+#RM:93506
 
 
 #---------------Váriaveis---------------#
