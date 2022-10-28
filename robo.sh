@@ -209,7 +209,7 @@ case $PERGUNTA in
 		versao
           ;;
 	*"segredo"*)
-		diversao
+		segredo
 	  ;;
   	*"ajuda"|"help")
 		ajuda
