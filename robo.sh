@@ -58,11 +58,15 @@ function inicio(){
 function ajuda(){
 	echo "Esse programa é um robo desenvolvido como dever(checkpoint) da matéria de Linux."
 	echo 
+	sleep 1
 	echo "O objetivo dele é ser um robo da zueira"
+	sleep 1
 	echo 
-	echo "Para usa-lo, digite ./robo e quando aparecer a mensagem de pergunta, responda com palavras minusculas"
+	echo "Para usa-lo, digite robo e quando aparecer a mensagem de pergunta, responda com palavras minusculas"
+	sleep 1
 	echo   
 	echo "Para essa mensagem, digite help"
+	sleep 1
 	echo
 	echo "PS: esse é meu primeiro programa em shell script"
 }
