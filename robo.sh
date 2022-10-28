@@ -138,7 +138,7 @@ function criador(){
 	echo "Conhecido como Caostic"
 
 }
-function diversao(){
+function segredo(){
 case $NUM in 
 	*0*)
 		say "NANO é melhor que VIM"
@@ -208,7 +208,7 @@ case $PERGUNTA in
 	*"versão"*|*"versao"*)
 		versao
           ;;
-	*"diver"*)
+	*"segredo"*)
 		diversao
 	  ;;
   	*"ajuda"|"help")
