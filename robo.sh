@@ -31,10 +31,13 @@ function inicio(){
         ;;
         *'2'*)
 		echo "Se necessitas de alguma ajuda digite help"
+		echo
 		sleep 1
 		echo "Qual é a resposta da pergunta What is the answere?"
+		echo
 		sleep 1
 		echo "Resposta: what. Entenderam?"
+		echo
 		sleep 1
 		read -p "Não? ok, deixe para lá. Faça sua pergunta: " PERGUNTA
         ;;
