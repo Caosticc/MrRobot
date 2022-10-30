@@ -24,7 +24,11 @@ chmod 755 MrRobot/setup.sh && sudo MrRobot/setup.sh
  
  ## Uso 🖱️
  Para utilizar o MrRobot , você necessita escrever algumas palavras chaves ou frases que contenham essas palavras chaves. Atualmente o robo só está funcionando em português
-
+ 
+Para rodar o programa é só digitar:
+```powershell
+robo 
+```
 
 
 
