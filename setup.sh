@@ -12,5 +12,3 @@ echo "Instalando dependencias ..."
 apt install -y  gnustep-gui-runtime 
 echo "Espero que aprecie :)"
 echo
-echo "Assinado por Gabriel"
-echo "Também conhecido como Caostic"
